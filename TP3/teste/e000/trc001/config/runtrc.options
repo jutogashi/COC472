@@ -1,0 +1,13 @@
+-r
+C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\teste\e000\trc001
+--return-app-exitcode
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--target-loops=n
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--cs-file=C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\teste\e000/callstacks.def
+--jit-profiling
+--target-gpu=0:0:2.0
+--app-working-dir=C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug
+--
+C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe

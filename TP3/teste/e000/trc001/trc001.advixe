@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1687837249</timestamp>
+  <hostname>Julia-Yoga</hostname>
+  <os>windows</os>
+  <product>Intel® Advisor 2023.1</product>
+  <buildNumber type="s32_t">613760</buildNumber>
+  <logicalCPUCount type="s32_t">8</logicalCPUCount>
+  <physicalCoreCount type="s32_t">4</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">1800000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">142</CPUModel>
+  <CPUStepping type="s32_t">10</CPUStepping>
+  <CPUBrandName>Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz</CPUBrandName>
+  <isa>avx2</isa>
+  <collectionTimeBegin type="u64_t">1687837253</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1687837367</collectionTimeEnd>
+  <finalizationTimeBegin type="u64_t">1687837369</finalizationTimeBegin>
+  <finalizationTimeEnd type="u64_t">1687837372</finalizationTimeEnd>
+ </rdmgr>
+</root>

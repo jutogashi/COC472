@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\tp3\jacobi.c"
+           line_no="53"
+           routine="run"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.041475E+01"
+           trip_counts=""
+           func_instance="14"
+           priority="0"/>
+  <hotspot filename="C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\tp3\jacobi.c"
+           line_no="53"
+           routine="run"
+           is_vectorized="0"
+           self_time="6.217856E-02"
+           total_time="3.041475E+01"
+           trip_counts=""
+           func_instance="13"
+           priority="0"/>
+  <hotspot filename="C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\tp3\jacobi.c"
+           line_no="56"
+           routine="run"
+           is_vectorized="0"
+           self_time="3.035257E+01"
+           total_time="3.035257E+01"
+           trip_counts=""
+           func_instance="11"
+           priority="0"/>
+  <hotspot filename="C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\tp3\jacobi.c"
+           line_no="102"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="7.538037E-02"
+           trip_counts=""
+           func_instance="10"
+           priority="0"/>
+  <hotspot filename="C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\tp3\jacobi.c"
+           line_no="105"
+           routine="main"
+           is_vectorized="0"
+           self_time="1.277077E-02"
+           total_time="7.538037E-02"
+           trip_counts=""
+           func_instance="7"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

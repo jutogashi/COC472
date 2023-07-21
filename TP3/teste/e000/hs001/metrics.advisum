@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<bag xmlns:boolean="http://www.w3.org/2001/XMLSchema#boolean" xmlns:double="http://www.intel.com/2001/XMLSchema#double" xmlns:int="http://www.w3.org/2001/XMLSchema#int" xmlns:unsignedInt="http://www.w3.org/2001/XMLSchema#unsignedInt">
+ <RoofItems arrayOf="roofItem">
+  <roofItem double:bandwidth="18.525292425" name="DRAM Bandwidth">
+   <types boolean:multiThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="10.193076833000001" name="DRAM Bandwidth (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="606.15961955600005" name="L1 Bandwidth">
+   <types boolean:multiThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="114.81447148000001" name="Scalar L1 Bandwidth">
+   <types boolean:multiThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="151.53990488900001" name="L1 Bandwidth (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="28.703617870000002" name="Scalar L1 Bandwidth (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="180.024251588" name="L2 Bandwidth">
+   <types boolean:multiThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="53.631448740000003" name="Scalar L2 Bandwidth">
+   <types boolean:multiThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="45.006062897" name="L2 Bandwidth (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="13.407862185000001" name="Scalar L2 Bandwidth (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="101.22974394400001" name="L3 Bandwidth">
+   <types boolean:multiThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="49.146476440000001" name="Scalar L3 Bandwidth">
+   <types boolean:multiThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="25.307435986000002" name="L3 Bandwidth (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="12.28661911" name="Scalar L3 Bandwidth (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:memory="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="221.43738605500002" name="SP Vector FMA Peak">
+   <types boolean:multiThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="56.797495505000001" name="SP Vector FMA Peak (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="111.464675677" name="DP Vector FMA Peak">
+   <types boolean:multiThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="28.462415947" name="DP Vector FMA Peak (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="13.745661324" name="Scalar Add Peak">
+   <types boolean:multiThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="3.4244347390000001" name="Scalar Add Peak (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="110.535104515" name="SP Vector Add Peak">
+   <types boolean:multiThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="28.039771791000003" name="SP Vector Add Peak (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="55.830499109000002" name="DP Vector Add Peak">
+   <types boolean:multiThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="14.255033101" name="DP Vector Add Peak (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="16.208362627" name="Integer Scalar Add Peak">
+   <types boolean:multiThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="4.3353440260000005" name="Integer Scalar Add Peak (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="76.201228103000005" name="Int64 Vector Add Peak">
+   <types boolean:multiThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="21.392699677000003" name="Int64 Vector Add Peak (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="157.09856446400002" name="Int32 Vector Add Peak">
+   <types boolean:multiThreaded="true" boolean:compute="true"/>
+  </roofItem>
+  <roofItem double:bandwidth="42.661339130000002" name="Int32 Vector Add Peak (single-threaded)">
+   <types boolean:singleThreaded="true" boolean:compute="true"/>
+  </roofItem>
+ </RoofItems>
+ <MemoryTraffic arrayOf="level">
+  <level double:L1="246.89563353900002"/>
+ </MemoryTraffic>
+ <Metrics double:ProgramTime="31.118847400100002" double:ElapsedTime="31.118847400100002" double:ElapsedTimeMKL="0" double:PausedTime="0" boolean:WasPausing="false" unsignedInt:CPUThreads="1" ISAUsed="SSE2" boolean:HasVNNI="false" int:CompilerMajorVersion="-1" int:VectorizedLoopsCount="0" int:FullyUnrolledCount="0" double:TotalCPUTime="30.504573373800003" double:TotalCPUTimeMKL="0" double:TimeInVectorizedLoops="0" double:TimeInVectorizedLoopsMKL="0" double:TimeInScalarLoops="30.490133718000003" double:TimeInScalarLoopsMKL="0" double:TimeOutsideOfAnyLoop="0.014439655799999999" double:TimeOutsideOfAnyLoopMKL="0" boolean:VectorizationGain="false" double:ProgramGain="0" double:VectorizedLoopsGain="0" boolean:EfficiencyConfidence="false" double:ProgramEfficiency="0" double:VectorizedLoopsEfficiency="0" double:ReferenceEfficiency="0" double:ReferenceProgramEfficiency="0" double:TotalGFLOPCount="5.6104020020000016" double:TotalGFLOPCountMKL="0" double:TotalGFLOPS="0.18028951811312821" double:TotalGFLOPSMKL="0" double:TotalFloatAI="0.022723779767104605" double:TotalGINTOPCount="14.028235561000004" double:TotalGINTOPCountMKL="0" double:TotalGINTOPS="0.45079547390161129" double:TotalGINTOPSMKL="0" double:TotalIntAI="0.056818483826219963" double:TotalGMixedOPCount="19.638637563" double:TotalGMixedOPCountMKL="0" double:TotalGMixedOPS="0.63108499201473922" double:TotalGMixedOPSMKL="0" double:TotalMixedAI="0.079542263593324544" boolean:FLOPSfeatureOn="true" boolean:HasMKL="false" boolean:MKLUserMode="true" double:GpuTime="0" double:GpuTotalDataTransferTime="0" double:GpuEUActive="0" double:GpuEUStalled="0" double:GpuEUIdle="0" boolean:GpuFLOPSfeatureOn="false" double:GpuTotalGFLOPS="0" double:GpuTotalGINTOPS="0" GpuTermSuffix=""/>
+</bag>

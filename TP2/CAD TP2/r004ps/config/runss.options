@@ -1,0 +1,16 @@
+-r
+C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r004ps
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet
+--stack-unwind-limit=8388608
+--itt-config=frame
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:nostack
+--interval=100
+--app-working-dir=C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2
+--
+C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\jacobi.exe

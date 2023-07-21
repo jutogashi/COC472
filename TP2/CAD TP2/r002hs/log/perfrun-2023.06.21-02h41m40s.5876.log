@@ -1,0 +1,106 @@
+149 [23200] INFO perfrun.launcher <> - Launcher main begin
+165 [23200] INFO perfrun.launcher <> - MessageCatalogInit finished
+165 [23200] INFO perfrun.launcher <> - Launcher instance created
+165 [23200] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1176 --option-file C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\config\runss.options 
+217 [23200] INFO perfrun.launcher <> - New signal handler callback was added
+331 [23200] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+332 [23200] INFO perfrun.launcher <> - create file finder object
+333 [23200] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs pid = 4294967295
+343 [23200] INFO perfrun.launcher <> - create data directory = C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\data.0
+346 [23200] INFO perfrun.launcher <> - Creating the master collection flag
+356 [23200] INFO perfrun.launcher <> - Done creating the master collection flag
+357 [20544] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+360 [20544] INFO perfrun.sdk <> - Allocating TMU :C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\data.0\systemcollector-5876-Julia-Yoga.sc
+361 [20544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+367 [20544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+367 [20544] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+367 [20544] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+367 [20544] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+367 [20544] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+368 [20544] INFO perfrun.mrte <> - system-wide mode is 0
+369 [20544] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+453 [20544] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\data.0
+454 [20544] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=Julia-Yoga
+454 [20544] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0
+454 [20544] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\texlive\2023\bin\windows;C:\Users\jutogashi\AppData\Local\Microsoft\WindowsApps;C:\Users\jutogashi\AppData\Local\atom\bin;C:\Users\jutogashi\AppData\Local\Yarn\bin;C:\Users\jutogashi\AppData\Roaming\npm;C:\Users\jutogashi\AppData\Local\Microsoft\WindowsApps;C:\kafka_2.12-3.1.0\bin\windows;C:\Users\jutogashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\texlive\2023\bin\windows
+454 [20544] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+454 [20544] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+454 [20544] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+454 [20544] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+454 [20544] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+454 [20544] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+454 [20544] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+454 [20544] INFO perfrun.mrte <> - Data directory: C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\data.0
+454 [20544] INFO perfrun.mrte <> - Mrte plugin is initialized
+455 [20544] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+455 [20544] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+456 [20544] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+457 [20544] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+457 [20544] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+457 [20544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+457 [20544] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+458 [20544] INFO perfrun.tpss <> - initialize tpss controller
+458 [20544] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+461 [20544] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+461 [20544] INFO perfrun.tpss <> - default obj-size-min=1024
+461 [20544] INFO perfrun.tpss <> - default hash-table-size=0
+462 [20544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+462 [20544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+462 [20544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+462 [20544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+462 [20544] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+462 [20544] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+462 [20544] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+462 [20544] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+463 [20544] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+463 [23200] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\texlive\2023\bin\windows;C:\Users\jutogashi\AppData\Local\Microsoft\WindowsApps;C:\Users\jutogashi\AppData\Local\atom\bin;C:\Users\jutogashi\AppData\Local\Yarn\bin;C:\Users\jutogashi\AppData\Roaming\npm;C:\Users\jutogashi\AppData\Local\Microsoft\WindowsApps;C:\kafka_2.12-3.1.0\bin\windows;C:\Users\jutogashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\texlive\2023\bin\windows
+464 [23200] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime\ittnotify_collector.dll
+464 [23200] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime\ittnotify_collector.dll
+464 [23200] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+464 [23200] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime\ittnotify_collector.dll
+464 [23200] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime\ittnotify_collector.dll
+465 [23200] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime\ittnotify_collector.dll;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime\ittnotify_collector.dll
+465 [23200] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+465 [23200] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+465 [23200] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+465 [23200] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+466 [23200] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+466 [23200] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\data.0
+466 [23200] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = Julia-Yoga
+466 [23200] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0
+466 [23200] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\runtime;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\texlive\2023\bin\windows;C:\Users\jutogashi\AppData\Local\Microsoft\WindowsApps;C:\Users\jutogashi\AppData\Local\atom\bin;C:\Users\jutogashi\AppData\Local\Yarn\bin;C:\Users\jutogashi\AppData\Roaming\npm;C:\Users\jutogashi\AppData\Local\Microsoft\WindowsApps;C:\kafka_2.12-3.1.0\bin\windows;C:\Users\jutogashi\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\texlive\2023\bin\windows
+467 [23200] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+467 [23200] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+467 [23200] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+467 [23200] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+467 [23200] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+468 [23200] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+468 [23200] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+470 [23200] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+496 [23200] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\jacobi.exe' is valid.
+496 [23200] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\jacobi.exe
+505 [23200] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\vtune\2023.1.0\bin64\pin.exe -error_file C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\vtune\latest\bin32\tpsstool.dll -server_name tpss_ipc.5876 -prd_dir C:\Program Files (x86)\Intel\oneAPI\vtune\2023.1.0 -- C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\jacobi.exe
+506 [23200] INFO perfrun.launcher <> - ProcessCreator object was created
+526 [23200] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+541 [20544] INFO perfrun.itt <> - start itt controller for pid #18820
+543 [20544] INFO perfrun.tpss <> - start tpss controller for pid #18820
+595 [23200] INFO perfrun.launcher <> - Launcher: all plugins were started
+595 [23200] INFO perfrun.launcher <> - DirectoryMonitor object was created
+596 [23200] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+596 [23200] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+596 [23200] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+597 [23200] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+618 [23200] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+54664 [23200] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+54699 [20544] INFO perfrun.itt <> - detach itt controller
+54699 [20544] INFO perfrun.itt <> - detach itt controller done
+54699 [20544] INFO perfrun.tpss <> - stop tpss controller
+54702 [20544] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\data.0\systemcollector-5876-Julia-Yoga.sc
+54715 [20544] INFO perfrun.system <> - closed the system trace file: C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP2\CAD TP2\r002hs\data.0\systemcollector-5876-Julia-Yoga.sc
+54716 [23200] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+54716 [23200] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+54717 [23200] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+54717 [23200] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+54718 [23200] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: C:\BB\ANphep2w6r\b\tmp9jhc2h\vcs\perfrun1\launcher\src\command_handler.cpp:226
+54721 [23200] INFO perfrun.launcher <> - Application exit code: 0
+54721 [23200] INFO perfrun.launcher <> - Exit code: 0

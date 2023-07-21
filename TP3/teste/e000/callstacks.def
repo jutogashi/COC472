@@ -1,0 +1,89 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	     70312	    0	      0	                          mainCRTStartup	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	70312	5	0	2	0	0	0	0	0	0	0	0
+         2	        -1	    337648	    0	      1	                      RtlUserThreadStart	C:\WINDOWS\SYSTEM32\ntdll.dll	337616	72	0	3	0	0	0	0	0	0	0	0
+         3	         2	     95763	    0	      1	                     BaseThreadInitThunk	C:\WINDOWS\System32\KERNEL32.DLL	95744	67	0	1	0	0	0	0	0	0	0	0
+         4	         3	     78493	    0	      0	                          mainCRTStartup	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	78480	19	0	2	0	0	0	0	0	0	0	0
+         5	         4	     77677	    0	      0	                      __scrt_common_main	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	77664	19	0	4	0	0	0	0	0	0	0	0
+         6	         5	     77997	    0	      0	                  __scrt_common_main_seh	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	77696	414	0	5	0	0	0	0	0	0	0	0
+         7	         6	     78344	    0	      0	                             invoke_main	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	78288	62	0	6	0	0	0	0	0	0	0	0
+         8	        60	     72425	    1	      0	              [Loop at line 105 in main]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	72392	122	72514	7	0	0	0	0	0	0	0	0
+         9	         8	   1067736	    0	      1	                                    rand	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1067728	60	0	15	0	0	0	0	0	0	0	0
+        10	         9	    601256	    0	      1	                        func@0x180092ca0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	601248	37	0	18	0	0	0	0	0	0	0	0
+        11	        10	    600772	    0	      1	                        func@0x180092aa0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	600736	62	0	19	0	0	0	0	0	0	0	0
+        12	        11	    600674	    0	      1	                        func@0x180092a50	C:\WINDOWS\SYSTEM32\ucrtbased.dll	600656	61	0	20	0	0	0	0	0	0	0	0
+        13	        12	    600328	    0	      1	                        func@0x180092900	C:\WINDOWS\SYSTEM32\ucrtbased.dll	600320	321	0	21	0	0	0	0	0	0	0	0
+        14	        13	    601083	    0	      1	                        func@0x180092bf0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	601072	55	0	25	0	0	0	0	0	0	0	0
+        15	        60	     72438	    1	      0	              [Loop at line 105 in main]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	72392	122	72514	7	0	0	0	0	0	0	0	0
+        16	        13	    601099	    0	      1	                        func@0x180092bf0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	601072	55	0	25	0	0	0	0	0	0	0	0
+        17	        16	    608977	    0	      1	                        func@0x180094ac0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	608960	23	0	26	0	0	0	0	0	0	0	0
+        18	        17	    331226	    0	      1	                             FlsGetValue	C:\WINDOWS\System32\KERNELBASE.dll	331200	54	0	9	0	0	0	0	0	0	0	0
+        19	        18	    337365	    0	      1	                          RtlFlsGetValue	C:\WINDOWS\SYSTEM32\ntdll.dll	337312	94	0	16	0	0	0	0	0	0	0	0
+        20	        13	    601117	    0	      1	                        func@0x180092bf0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	601072	55	0	25	0	0	0	0	0	0	0	0
+        21	        11	    600661	    0	      1	                        func@0x180092a50	C:\WINDOWS\SYSTEM32\ucrtbased.dll	600656	61	0	20	0	0	0	0	0	0	0	0
+        22	        13	    601111	    0	      1	                        func@0x180092bf0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	601072	55	0	25	0	0	0	0	0	0	0	0
+        23	         7	     72680	    0	      0	                                    main	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	71936	1283	0	8	0	0	0	0	0	0	0	0
+        24	        65	     75627	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        25	        65	     75633	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        26	        65	     75600	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        27	        65	     75615	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        28	        65	     75642	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        29	        65	     75585	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        30	        65	     75645	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        31	        65	     75650	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        32	        65	     75638	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        33	        65	     75566	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        34	        65	     75604	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        35	        64	     75704	    1	      0	                [Loop at line 53 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75518	207	75725	13	0	0	0	0	0	0	0	0
+        36	        65	     75602	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        37	        65	     75588	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        38	        65	     75561	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        39	        65	     75622	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        40	        65	     75558	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        41	        65	     75598	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        42	        65	     75580	    1	      0	                [Loop at line 56 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75558	94	75652	11	0	0	0	0	0	0	0	0
+        43	         7	     73014	    0	      0	                                    main	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	71936	1283	0	8	0	0	0	0	0	0	0	0
+        44	        43	     75347	    0	      0	                                  printf	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75216	191	0	23	0	0	0	0	0	0	0	0
+        45	        44	     71900	    0	      0	                              vfprintf_l	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	71808	103	0	24	0	0	0	0	0	0	0	0
+        46	        45	   1019547	    0	      1	                  _stdio_common_vfprintf	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1019456	118	0	27	0	0	0	0	0	0	0	0
+        47	        46	    847593	    0	      1	                        func@0x1800cecd0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	847056	547	0	28	0	0	0	0	0	0	0	0
+        48	        47	    844343	    0	      1	                        func@0x1800ce1e0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	844256	94	0	29	0	0	0	0	0	0	0	0
+        49	        48	    844100	    0	      1	                        func@0x1800ce110	C:\WINDOWS\SYSTEM32\ucrtbased.dll	844048	76	0	30	0	0	0	0	0	0	0	0
+        50	        49	    930739	    0	      1	                        func@0x1800e32b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	930480	288	0	31	0	0	0	0	0	0	0	0
+        51	        50	    758743	    0	      1	                        func@0x1800b93b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758704	45	0	32	0	0	0	0	0	0	0	0
+        52	        51	   1054755	    0	      1	                        func@0x1801017d0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1054672	156	0	33	0	0	0	0	0	0	0	0
+        53	        52	    748643	    0	      1	                        func@0x1800b6ba0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	748448	276	0	34	0	0	0	0	0	0	0	0
+        54	        53	   1416470	    0	      1	                        func@0x1801599a0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1415584	915	0	35	0	0	0	0	0	0	0	0
+        55	        54	   1417616	    0	      1	                        func@0x180159d40	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1416512	1748	0	36	0	0	0	0	0	0	0	0
+        56	        85	   1413938	    1	      1	  [Loop@0x18015924e in func@0x1801591b0]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1413710,1413986,1414045	233,26,5	0	37	0	0	0	0	0	0	0	0
+        57	        56	    217893	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	217776	179	0	22	0	0	0	0	0	0	0	0
+        58	        57	    643508	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	643488	21	0	17	0	0	0	0	0	0	0	0
+        59	         7	     72337	    0	      0	                                    main	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	71936	1283	0	8	0	0	0	0	0	0	0	0
+        60	        59	     72392	    1	      0	              [Loop at line 102 in main]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	72337	311	72648	10	0	0	0	0	0	0	0	0
+        61	         7	     72425	    0	      0	                                    main	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	71936	1283	0	8	0	0	0	0	0	0	0	0
+        62	         7	     72438	    0	      0	                                    main	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	71936	1283	0	8	0	0	0	0	0	0	0	0
+        63	        23	     75509	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        64	        63	     75518	    1	      0	                [Loop at line 53 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75509	425	75934	14	0	0	0	0	0	0	0	0
+        65	        64	     75558	    1	      0	                [Loop at line 53 in run]	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75518	207	75725	13	0	0	0	0	0	0	0	0
+        66	        23	     75627	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        67	        23	     75633	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        68	        23	     75600	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        69	        23	     75615	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        70	        23	     75642	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        71	        23	     75585	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        72	        23	     75645	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        73	        23	     75650	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        74	        23	     75638	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        75	        23	     75566	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        76	        23	     75604	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        77	        23	     75704	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        78	        23	     75602	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        79	        23	     75588	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        80	        23	     75561	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        81	        23	     75622	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        82	        23	     75558	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        83	        23	     75598	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        84	        23	     75580	    0	      0	                                     run	C:\Users\jutogashi\Documents\UFRJ\2023_1\CAD\COC472\TP3\tp3\x64\Debug\tp3.exe	75456	491	0	12	0	0	0	0	0	0	0	0
+        85	        55	   1413710	    0	      1	                        func@0x1801591b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1413552	555	0	38	0	0	0	0	0	0	0	0
+        86	        55	   1413938	    0	      1	                        func@0x1801591b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1413552	555	0	38	0	0	0	0	0	0	0	0
+        87	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	40	0	0	0	0	0	0	0	0
